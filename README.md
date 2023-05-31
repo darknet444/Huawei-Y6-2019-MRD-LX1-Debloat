@@ -23,4 +23,4 @@ Step 4 clone repo with and make the script executable with.
 
 step 5 run the script with. 
             
-   ./Huawei-Y6-2019-MRD-LX1-Debloat/Huawei-Y6-2019-MRD-LX1-Debloat.sh 
+      ./Huawei-Y6-2019-MRD-LX1-Debloat/Huawei-Y6-2019-MRD-LX1-Debloat.sh 
