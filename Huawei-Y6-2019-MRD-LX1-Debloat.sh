@@ -27,7 +27,6 @@ for package in $(adb shell pm list packages -f | sed -e "s/.*=//" -e "s/\r//"); 
 done 
 
 echo " Removing Google Apps "
-
 adb shell pm uninstall --user 0 com.google.android.apps.docs.editors.docs
 adb shell pm uninstall --user 0 com.google.android.apps.docs.editors.sheets
 adb shell pm uninstall --user 0 com.google.android.apps.docs.editors.slides
@@ -118,6 +117,9 @@ adb shell pm uninstall --user 0 com.huawei.systemmanager
 adb shell pm uninstall --user 0 com.huawei.securitymgr
 adb shell pm uninstall --user 0 com.huawei.android.projectmenu
 adb shell pm uninstall --user 0 com.huawei.KoBackup 
+adb shell pm uninstall --user 0 com.huawei.printservice
+adb shell pm uninstall --user 0 com.huawei.numberidentity
+adb shell pm uninstall --user 0 com.huawei.android.hwupgradeguide
 
 echo " Removing Android Apps "
 adb shell pm uninstall --user 0 com.android.bluetoothmidiservice
@@ -137,6 +139,13 @@ adb shell pm uninstall --user 0 com.android.imedia.syncplay
 adb shell pm uninstall --user 0 com.android.soundrecorder
 adb shell pm uninstall --user 0 com.android.email
 adb shell pm uninstall --user 0 com.android.storagemanager
+adb shell pm uninstall --user 0 com.android.contacts
+adb shell pm uninstall --user 0 com.android.providers.contacts
+adb shell pm uninstall --user 0 com.android.printspooler
+adb shell pm uninstall --user 0 com.android.documentsui
+adb shell pm uninstall --user 0 com.android.emergency
+adb shell pm uninstall --user 0 com.android.bookmarkprovider
+adb shell pm uninstall --user 0 com.android.stk
 
 echo " Downloading fdroid "
 wget https://f-droid.org/F-Droid.apk
