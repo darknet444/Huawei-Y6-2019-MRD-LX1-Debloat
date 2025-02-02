@@ -1,4 +1,4 @@
-# Huawei Y6 Debloat Script
+# Huawei Y6 2019 Debloat Script
 
 Dit script helpt je om je Huawei Y6 2019 te ontdoen van onnodige applicaties (debloat).
 
@@ -29,12 +29,12 @@ Installeer de benodigde tools afhankelijk van je besturingssysteem:
 ### Stap 4: Clone de Repository en Maak het Script Uitvoerbaar
 Clone de repository en maak het script uitvoerbaar met de volgende commando's:
 ```sh
-git clone https://github.com/darknet444/Huawei-Y6-Debloat.git
-chmod +x .Huawei-Y6-2019-MRD-LX1-Debloat/Huawei-Y6-2019-MRD-LX1-Debloat.sh/
+git clone https://github.com/darknet444/Huawei-Y6-2019-MRD-LX1-Debloat.git
+chmod +x ./Huawei-Y6-2019-MRD-LX1-Debloat/Huawei-Y6-2019-MRD-LX1-Debloat.sh
 ```
 ### Stap 5: Voer het Script uit
 ```sh
-./Huawei-Y6-Debloat/Debloat.sh
+./Huawei-Y6-2019-MRD-LX1-Debloat/Huawei-Y6-2019-MRD-LX1-Debloat.sh
 ```
 
 ## Opmerkingen
